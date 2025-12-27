@@ -125,7 +125,7 @@ section {
   align-items: center;
 }
 
-#progressBar {
+.progress-bar {
   height: 3px;
   width: 100%;
   background-color: white;
@@ -186,4 +186,85 @@ video {
 
 #liked {
   color: crimson;
+}
+
+.commentSection {
+  height: 0px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #111;
+  transition: all ease 0.2s;
+}
+
+.commentSection {
+  overflow-y: auto;
+
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: #222 transparent;
+}
+
+.commentSection::-webkit-scrollbar {
+  width: 8px;
+}
+
+.commentSection::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.commentSection::-webkit-scrollbar-thumb {
+  background-color: #222;
+  border-radius: 999px;
+}
+
+.commentSection::-webkit-scrollbar-thumb:hover {
+  background-color: #333;
+}
+
+.commentSection header {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px 0px 0px;
+  z-index: 2;
+}
+
+.commentSection header h4 {
+  font-size: 25px;
+}
+
+.commentSection .comment {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #222;
+  border-radius: 15px;
+  position: relative;
+}
+
+.commentSection .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.comment {
+  margin: 15px 0px;
+  width: 100%;
+  min-height: 60px;
+}
+
+.commentSection .comment img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.comment .text {
+  margin-left: 40px;
 }

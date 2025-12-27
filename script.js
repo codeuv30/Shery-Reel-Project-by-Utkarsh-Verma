@@ -4,9 +4,21 @@ const reels = [
     likes: 15234,
     shares: 892,
     comments: [
-      { user: "sarah_m", text: "This is amazing! 😍" },
-      { user: "mike_photo", text: "Great shot!" },
-      { user: "travel_bug", text: "Adding this to my bucket list" },
+      {
+        user: "sarah_m",
+        text: "This is amazing! 😍",
+        profilePicture: "https://i.pravatar.cc/150?img=51",
+      },
+      {
+        user: "mike_photo",
+        text: "Great shot!",
+        profilePicture: "https://i.pravatar.cc/150?img=52",
+      },
+      {
+        user: "travel_bug",
+        text: "Adding this to my bucket list",
+        profilePicture: "https://i.pravatar.cc/150?img=53",
+      },
     ],
     reelTitle: "Sunset at Santorini",
     reelVideo:
@@ -20,8 +32,16 @@ const reels = [
     likes: 28901,
     shares: 1543,
     comments: [
-      { user: "chef_mike", text: "Recipe please! 🙏" },
-      { user: "hungry_always", text: "This looks delicious" },
+      {
+        user: "chef_mike",
+        text: "Recipe please! 🙏",
+        profilePicture: "https://i.pravatar.cc/150?img=54",
+      },
+      {
+        user: "hungry_always",
+        text: "This looks delicious",
+        profilePicture: "https://i.pravatar.cc/150?img=55",
+      },
     ],
     reelTitle: "Homemade Ramen Bowl",
     reelVideo:
@@ -35,9 +55,21 @@ const reels = [
     likes: 42156,
     shares: 2187,
     comments: [
-      { user: "gym_rat", text: "Incredible form!" },
-      { user: "health_nut", text: "Motivational 💪" },
-      { user: "workout_daily", text: "Need this routine" },
+      {
+        user: "gym_rat",
+        text: "Incredible form!",
+        profilePicture: "https://i.pravatar.cc/150?img=56",
+      },
+      {
+        user: "health_nut",
+        text: "Motivational 💪",
+        profilePicture: "https://i.pravatar.cc/150?img=57",
+      },
+      {
+        user: "workout_daily",
+        text: "Need this routine",
+        profilePicture: "https://i.pravatar.cc/150?img=58",
+      },
     ],
     reelTitle: "Full Body HIIT Workout",
     reelVideo:
@@ -51,8 +83,16 @@ const reels = [
     likes: 19876,
     shares: 1092,
     comments: [
-      { user: "gadget_lover", text: "Worth the upgrade?" },
-      { user: "apple_fan", text: "Looks sleek!" },
+      {
+        user: "gadget_lover",
+        text: "Worth the upgrade?",
+        profilePicture: "https://i.pravatar.cc/150?img=59",
+      },
+      {
+        user: "apple_fan",
+        text: "Looks sleek!",
+        profilePicture: "https://i.pravatar.cc/150?img=60",
+      },
     ],
     reelTitle: "iPhone 15 Pro Unboxing",
     reelVideo:
@@ -66,9 +106,21 @@ const reels = [
     likes: 67543,
     shares: 3421,
     comments: [
-      { user: "choreographer_leo", text: "Killed it! 🔥" },
-      { user: "dancer_pro", text: "Tutorial when?" },
-      { user: "music_lover", text: "Song name?" },
+      {
+        user: "choreographer_leo",
+        text: "Killed it! 🔥",
+        profilePicture: "https://i.pravatar.cc/150?img=61",
+      },
+      {
+        user: "dancer_pro",
+        text: "Tutorial when?",
+        profilePicture: "https://i.pravatar.cc/150?img=62",
+      },
+      {
+        user: "music_lover",
+        text: "Song name?",
+        profilePicture: "https://i.pravatar.cc/150?img=63",
+      },
     ],
     reelTitle: "Viral Dance Challenge",
     reelVideo:
@@ -82,9 +134,21 @@ const reels = [
     likes: 91234,
     shares: 5672,
     comments: [
-      { user: "dog_mom", text: "So cute! 🐶" },
-      { user: "animal_love", text: "Made my day" },
-      { user: "puppy_fan", text: "I can't even 😭" },
+      {
+        user: "dog_mom",
+        text: "So cute! 🐶",
+        profilePicture: "https://i.pravatar.cc/150?img=64",
+      },
+      {
+        user: "animal_love",
+        text: "Made my day",
+        profilePicture: "https://i.pravatar.cc/150?img=65",
+      },
+      {
+        user: "puppy_fan",
+        text: "I can't even 😭",
+        profilePicture: "https://i.pravatar.cc/150?img=66",
+      },
     ],
     reelTitle: "Golden Retriever Puppy Antics",
     reelVideo:
@@ -98,8 +162,16 @@ const reels = [
     likes: 12456,
     shares: 987,
     comments: [
-      { user: "creative_soul", text: "Genius idea!" },
-      { user: "craft_addict", text: "Trying this tonight" },
+      {
+        user: "creative_soul",
+        text: "Genius idea!",
+        profilePicture: "https://i.pravatar.cc/150?img=67",
+      },
+      {
+        user: "craft_addict",
+        text: "Trying this tonight",
+        profilePicture: "https://i.pravatar.cc/150?img=68",
+      },
     ],
     reelTitle: "5-Minute Room Decor Hack",
     reelVideo:
@@ -113,9 +185,21 @@ const reels = [
     likes: 54321,
     shares: 4231,
     comments: [
-      { user: "laugh_daily", text: "Can't stop laughing 😂" },
-      { user: "humor_king", text: "Relatable!" },
-      { user: "comedy_fan", text: "More please!" },
+      {
+        user: "laugh_daily",
+        text: "Can't stop laughing 😂",
+        profilePicture: "https://i.pravatar.cc/150?img=69",
+      },
+      {
+        user: "humor_king",
+        text: "Relatable!",
+        profilePicture: "https://i.pravatar.cc/150?img=70",
+      },
+      {
+        user: "comedy_fan",
+        text: "More please!",
+        profilePicture: "https://i.pravatar.cc/150?img=1",
+      },
     ],
     reelTitle: "When Your Mom Calls",
     reelVideo:
@@ -129,8 +213,16 @@ const reels = [
     likes: 23567,
     shares: 1876,
     comments: [
-      { user: "wilderness_lover", text: "Breathtaking view" },
-      { user: "hiker_life", text: "Where is this?" },
+      {
+        user: "wilderness_lover",
+        text: "Breathtaking view",
+        profilePicture: "https://i.pravatar.cc/150?img=2",
+      },
+      {
+        user: "hiker_life",
+        text: "Where is this?",
+        profilePicture: "https://i.pravatar.cc/150?img=3",
+      },
     ],
     reelTitle: "Hidden Waterfall Discovery",
     reelVideo:
@@ -144,9 +236,21 @@ const reels = [
     likes: 38912,
     shares: 2456,
     comments: [
-      { user: "style_icon", text: "Love this outfit! 👗" },
-      { user: "trendy_vibes", text: "Where'd you get the bag?" },
-      { user: "fashion_week", text: "Stunning!" },
+      {
+        user: "style_icon",
+        text: "Love this outfit! 👗",
+        profilePicture: "https://i.pravatar.cc/150?img=4",
+      },
+      {
+        user: "trendy_vibes",
+        text: "Where'd you get the bag?",
+        profilePicture: "https://i.pravatar.cc/150?img=5",
+      },
+      {
+        user: "fashion_week",
+        text: "Stunning!",
+        profilePicture: "https://i.pravatar.cc/150?img=6",
+      },
     ],
     reelTitle: "Spring Fashion Haul 2024",
     reelVideo:
@@ -160,8 +264,16 @@ const reels = [
     likes: 45678,
     shares: 3124,
     comments: [
-      { user: "beat_maker", text: "Fire beat! 🔥" },
-      { user: "studio_time", text: "How'd you mix this?" },
+      {
+        user: "beat_maker",
+        text: "Fire beat! 🔥",
+        profilePicture: "https://i.pravatar.cc/150?img=7",
+      },
+      {
+        user: "studio_time",
+        text: "How'd you mix this?",
+        profilePicture: "https://i.pravatar.cc/150?img=8",
+      },
     ],
     reelTitle: "Behind the Beats",
     reelVideo:
@@ -175,9 +287,21 @@ const reels = [
     likes: 31245,
     shares: 1987,
     comments: [
-      { user: "speed_demon", text: "Dream car! 🏎️" },
-      { user: "auto_lover", text: "That engine sound" },
-      { user: "garage_goals", text: "Specs?" },
+      {
+        user: "speed_demon",
+        text: "Dream car! 🏎️",
+        profilePicture: "https://i.pravatar.cc/150?img=9",
+      },
+      {
+        user: "auto_lover",
+        text: "That engine sound",
+        profilePicture: "https://i.pravatar.cc/150?img=0",
+      },
+      {
+        user: "garage_goals",
+        text: "Specs?",
+        profilePicture: "https://i.pravatar.cc/150?img=1",
+      },
     ],
     reelTitle: "Lamborghini Test Drive",
     reelVideo:
@@ -191,14 +315,26 @@ const reels = [
     likes: 56789,
     shares: 3987,
     comments: [
-      { user: "beauty_guru", text: "Tutorial please!" },
-      { user: "glam_squad", text: "What products?" },
-      { user: "makeup_addict", text: "Flawless ✨" },
+      {
+        user: "beauty_guru",
+        text: "Tutorial please!",
+        profilePicture: "https://i.pravatar.cc/150?img=2",
+      },
+      {
+        user: "glam_squad",
+        text: "What products?",
+        profilePicture: "https://i.pravatar.cc/150?img=3",
+      },
+      {
+        user: "makeup_addict",
+        text: "Flawless ✨",
+        profilePicture: "https://i.pravatar.cc/150?img=4",
+      },
     ],
     reelTitle: "Glamorous Evening Look",
     reelVideo:
       "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-    userProfilePicture: "https://i.pravatar.cc/150?img=13",
+    userProfilePicture: "https://i.pravatar.cc/150?img=3",
     isLiked: true,
     isFollowed: true,
   },
@@ -207,9 +343,21 @@ const reels = [
     likes: 78234,
     shares: 5123,
     comments: [
-      { user: "gamer_tag", text: "Insane clutch!" },
-      { user: "esports_fan", text: "Pro level play" },
-      { user: "console_king", text: "Teach me 🎮" },
+      {
+        user: "gamer_tag",
+        text: "Insane clutch!",
+        profilePicture: "https://i.pravatar.cc/150?img=5",
+      },
+      {
+        user: "esports_fan",
+        text: "Pro level play",
+        profilePicture: "https://i.pravatar.cc/150?img=6",
+      },
+      {
+        user: "console_king",
+        text: "Teach me 🎮",
+        profilePicture: "https://i.pravatar.cc/150?img=7",
+      },
     ],
     reelTitle: "Epic 1v5 Clutch",
     reelVideo:
@@ -223,8 +371,16 @@ const reels = [
     likes: 34567,
     shares: 2341,
     comments: [
-      { user: "zen_master", text: "So peaceful 🧘" },
-      { user: "wellness_life", text: "Morning routine inspo" },
+      {
+        user: "zen_master",
+        text: "So peaceful 🧘",
+        profilePicture: "https://i.pravatar.cc/150?img=8",
+      },
+      {
+        user: "wellness_life",
+        text: "Morning routine inspo",
+        profilePicture: "https://i.pravatar.cc/150?img=9",
+      },
     ],
     reelTitle: "Sunrise Yoga Flow",
     reelVideo:
@@ -238,9 +394,21 @@ const reels = [
     likes: 27890,
     shares: 1654,
     comments: [
-      { user: "camera_nerd", text: "What lens?" },
-      { user: "urban_explorer", text: "Perfect timing!" },
-      { user: "photo_daily", text: "Love the composition" },
+      {
+        user: "camera_nerd",
+        text: "What lens?",
+        profilePicture: "https://i.pravatar.cc/150?img=0",
+      },
+      {
+        user: "urban_explorer",
+        text: "Perfect timing!",
+        profilePicture: "https://i.pravatar.cc/150?img=1",
+      },
+      {
+        user: "photo_daily",
+        text: "Love the composition",
+        profilePicture: "https://i.pravatar.cc/150?img=2",
+      },
     ],
     reelTitle: "City Life at Night",
     reelVideo:
@@ -254,8 +422,16 @@ const reels = [
     likes: 41234,
     shares: 2876,
     comments: [
-      { user: "sweet_tooth", text: "Recipe? 🍰" },
-      { user: "bake_lover", text: "Looks amazing!" },
+      {
+        user: "sweet_tooth",
+        text: "Recipe? 🍰",
+        profilePicture: "https://i.pravatar.cc/150?img=3",
+      },
+      {
+        user: "bake_lover",
+        text: "Looks amazing!",
+        profilePicture: "https://i.pravatar.cc/150?img=4",
+      },
     ],
     reelTitle: "Chocolate Lava Cake",
     reelVideo:
@@ -269,9 +445,21 @@ const reels = [
     likes: 62341,
     shares: 4123,
     comments: [
-      { user: "skate_crew", text: "Sick trick! 🛹" },
-      { user: "extreme_sports", text: "How many tries?" },
-      { user: "board_culture", text: "Clean landing" },
+      {
+        user: "skate_crew",
+        text: "Sick trick! 🛹",
+        profilePicture: "https://i.pravatar.cc/150?img=5",
+      },
+      {
+        user: "extreme_sports",
+        text: "How many tries?",
+        profilePicture: "https://i.pravatar.cc/150?img=6",
+      },
+      {
+        user: "board_culture",
+        text: "Clean landing",
+        profilePicture: "https://i.pravatar.cc/150?img=7",
+      },
     ],
     reelTitle: "Kickflip Down 12 Stairs",
     reelVideo:
@@ -285,8 +473,16 @@ const reels = [
     likes: 18765,
     shares: 1234,
     comments: [
-      { user: "green_thumb", text: "Care tips? 🌱" },
-      { user: "indoor_jungle", text: "Gorgeous collection" },
+      {
+        user: "green_thumb",
+        text: "Care tips? 🌱",
+        profilePicture: "https://i.pravatar.cc/150?img=8",
+      },
+      {
+        user: "indoor_jungle",
+        text: "Gorgeous collection",
+        profilePicture: "https://i.pravatar.cc/150?img=9",
+      },
     ],
     reelTitle: "My Plant Propagation Station",
     reelVideo:
@@ -300,9 +496,21 @@ const reels = [
     likes: 89456,
     shares: 6234,
     comments: [
-      { user: "success_mindset", text: "Needed this today 🙌" },
-      { user: "inspire_daily", text: "Truth!" },
-      { user: "goal_getter", text: "Saving this" },
+      {
+        user: "success_mindset",
+        text: "Needed this today 🙌",
+        profilePicture: "https://i.pravatar.cc/150?img=1",
+      },
+      {
+        user: "inspire_daily",
+        text: "Truth!",
+        profilePicture: "https://i.pravatar.cc/150?img=11",
+      },
+      {
+        user: "goal_getter",
+        text: "Saving this",
+        profilePicture: "https://i.pravatar.cc/150?img=12",
+      },
     ],
     reelTitle: "Don't Give Up",
     reelVideo:
@@ -316,8 +524,16 @@ const reels = [
     likes: 33456,
     shares: 2567,
     comments: [
-      { user: "physics_nerd", text: "Mind blown 🤯" },
-      { user: "learn_daily", text: "So cool!" },
+      {
+        user: "physics_nerd",
+        text: "Mind blown 🤯",
+        profilePicture: "https://i.pravatar.cc/150?img=13",
+      },
+      {
+        user: "learn_daily",
+        text: "So cool!",
+        profilePicture: "https://i.pravatar.cc/150?img=14",
+      },
     ],
     reelTitle: "How Black Holes Work",
     reelVideo:
@@ -331,9 +547,21 @@ const reels = [
     likes: 48923,
     shares: 3421,
     comments: [
-      { user: "ocean_lover", text: "Paradise! 🏖️" },
-      { user: "tropical_life", text: "Need a vacation" },
-      { user: "surf_culture", text: "Perfect waves" },
+      {
+        user: "ocean_lover",
+        text: "Paradise! 🏖️",
+        profilePicture: "https://i.pravatar.cc/150?img=15",
+      },
+      {
+        user: "tropical_life",
+        text: "Need a vacation",
+        profilePicture: "https://i.pravatar.cc/150?img=16",
+      },
+      {
+        user: "surf_culture",
+        text: "Perfect waves",
+        profilePicture: "https://i.pravatar.cc/150?img=17",
+      },
     ],
     reelTitle: "Maldives Sunrise",
     reelVideo:
@@ -347,8 +575,16 @@ const reels = [
     likes: 22134,
     shares: 1543,
     comments: [
-      { user: "caffeine_addict", text: "Best latte art ☕" },
-      { user: "barista_life", text: "Technique?" },
+      {
+        user: "caffeine_addict",
+        text: "Best latte art ☕",
+        profilePicture: "https://i.pravatar.cc/150?img=18",
+      },
+      {
+        user: "barista_life",
+        text: "Technique?",
+        profilePicture: "https://i.pravatar.cc/150?img=19",
+      },
     ],
     reelTitle: "Perfect Latte Art Tutorial",
     reelVideo:
@@ -362,9 +598,21 @@ const reels = [
     likes: 71234,
     shares: 4987,
     comments: [
-      { user: "illusion_fan", text: "How?! 🎩" },
-      { user: "card_shark", text: "Reveal please!" },
-      { user: "magic_circle", text: "Smooth moves" },
+      {
+        user: "illusion_fan",
+        text: "How?! 🎩",
+        profilePicture: "https://i.pravatar.cc/150?img=10",
+      },
+      {
+        user: "card_shark",
+        text: "Reveal please!",
+        profilePicture: "https://i.pravatar.cc/150?img=11",
+      },
+      {
+        user: "magic_circle",
+        text: "Smooth moves",
+        profilePicture: "https://i.pravatar.cc/150?img=12",
+      },
     ],
     reelTitle: "Impossible Card Trick",
     reelVideo:
@@ -378,8 +626,16 @@ const reels = [
     likes: 36789,
     shares: 2134,
     comments: [
-      { user: "clean_aesthetic", text: "Goals! 🏠" },
-      { user: "interior_design", text: "Where's the couch from?" },
+      {
+        user: "clean_aesthetic",
+        text: "Goals! 🏠",
+        profilePicture: "https://i.pravatar.cc/150?img=13",
+      },
+      {
+        user: "interior_design",
+        text: "Where's the couch from?",
+        profilePicture: "https://i.pravatar.cc/150?img=14",
+      },
     ],
     reelTitle: "Living Room Transformation",
     reelVideo:
@@ -393,9 +649,21 @@ const reels = [
     likes: 44321,
     shares: 2987,
     comments: [
-      { user: "space_nerd", text: "Amazing footage! 🌌" },
-      { user: "telescope_club", text: "What equipment?" },
-      { user: "star_gazer", text: "Stunning" },
+      {
+        user: "space_nerd",
+        text: "Amazing footage! 🌌",
+        profilePicture: "https://i.pravatar.cc/150?img=15",
+      },
+      {
+        user: "telescope_club",
+        text: "What equipment?",
+        profilePicture: "https://i.pravatar.cc/150?img=16",
+      },
+      {
+        user: "star_gazer",
+        text: "Stunning",
+        profilePicture: "https://i.pravatar.cc/150?img=17",
+      },
     ],
     reelTitle: "Milky Way Time-lapse",
     reelVideo:
@@ -409,8 +677,16 @@ const reels = [
     likes: 29876,
     shares: 1876,
     comments: [
-      { user: "thrift_queen", text: "Great find! 👗" },
-      { user: "retro_vibes", text: "Love vintage fashion" },
+      {
+        user: "thrift_queen",
+        text: "Great find! 👗",
+        profilePicture: "https://i.pravatar.cc/150?img=18",
+      },
+      {
+        user: "retro_vibes",
+        text: "Love vintage fashion",
+        profilePicture: "https://i.pravatar.cc/150?img=19",
+      },
     ],
     reelTitle: "Thrift Store Haul",
     reelVideo:
@@ -424,9 +700,21 @@ const reels = [
     likes: 52341,
     shares: 3765,
     comments: [
-      { user: "student_life", text: "Trying this! 📚" },
-      { user: "work_smart", text: "Game changer" },
-      { user: "efficiency_pro", text: "Bookmarked" },
+      {
+        user: "student_life",
+        text: "Trying this! 📚",
+        profilePicture: "https://i.pravatar.cc/150?img=10",
+      },
+      {
+        user: "work_smart",
+        text: "Game changer",
+        profilePicture: "https://i.pravatar.cc/150?img=21",
+      },
+      {
+        user: "efficiency_pro",
+        text: "Bookmarked",
+        profilePicture: "https://i.pravatar.cc/150?img=12",
+      },
     ],
     reelTitle: "Study Method That Works",
     reelVideo:
@@ -440,8 +728,16 @@ const reels = [
     likes: 38567,
     shares: 2456,
     comments: [
-      { user: "aerial_shots", text: "Epic footage! 🚁" },
-      { user: "filmmaker", text: "What drone?" },
+      {
+        user: "aerial_shots",
+        text: "Epic footage! 🚁",
+        profilePicture: "https://i.pravatar.cc/150?img=13",
+      },
+      {
+        user: "filmmaker",
+        text: "What drone?",
+        profilePicture: "https://i.pravatar.cc/150?img=24",
+      },
     ],
     reelTitle: "Canyon Flythrough",
     reelVideo:
@@ -455,9 +751,21 @@ const reels = [
     likes: 67890,
     shares: 4532,
     comments: [
-      { user: "couples_goals", text: "So true! 💕" },
-      { user: "love_tips", text: "Needed to hear this" },
-      { user: "dating_life", text: "Facts" },
+      {
+        user: "couples_goals",
+        text: "So true! 💕",
+        profilePicture: "https://i.pravatar.cc/150?img=25",
+      },
+      {
+        user: "love_tips",
+        text: "Needed to hear this",
+        profilePicture: "https://i.pravatar.cc/150?img=26",
+      },
+      {
+        user: "dating_life",
+        text: "Facts",
+        profilePicture: "https://i.pravatar.cc/150?img=27",
+      },
     ],
     reelTitle: "Green Flags to Look For",
     reelVideo:
@@ -471,8 +779,16 @@ const reels = [
     likes: 31298,
     shares: 2109,
     comments: [
-      { user: "music_student", text: "Helpful lesson! 🎸" },
-      { user: "beginner_player", text: "Finally understand this" },
+      {
+        user: "music_student",
+        text: "Helpful lesson! 🎸",
+        profilePicture: "https://i.pravatar.cc/150?img=28",
+      },
+      {
+        user: "beginner_player",
+        text: "Finally understand this",
+        profilePicture: "https://i.pravatar.cc/150?img=29",
+      },
     ],
     reelTitle: "Easy Chord Progression",
     reelVideo:
@@ -486,8 +802,16 @@ const reels = [
     likes: 24567,
     shares: 1654,
     comments: [
-      { user: "grow_your_own", text: "Smart setup! 🌿" },
-      { user: "apartment_life", text: "Doing this!" },
+      {
+        user: "grow_your_own",
+        text: "Smart setup! 🌿",
+        profilePicture: "https://i.pravatar.cc/150?img=30",
+      },
+      {
+        user: "apartment_life",
+        text: "Doing this!",
+        profilePicture: "https://i.pravatar.cc/150?img=31",
+      },
     ],
     reelTitle: "Balcony Garden Tour",
     reelVideo:
@@ -501,9 +825,21 @@ const reels = [
     likes: 56432,
     shares: 3876,
     comments: [
-      { user: "artist_community", text: "Smooth animation! ✨" },
-      { user: "3d_creator", text: "Software?" },
-      { user: "animator_pro", text: "Impressive work" },
+      {
+        user: "artist_community",
+        text: "Smooth animation! ✨",
+        profilePicture: "https://i.pravatar.cc/150?img=12",
+      },
+      {
+        user: "3d_creator",
+        text: "Software?",
+        profilePicture: "https://i.pravatar.cc/150?img=33",
+      },
+      {
+        user: "animator_pro",
+        text: "Impressive work",
+        profilePicture: "https://i.pravatar.cc/150?img=13",
+      },
     ],
     reelTitle: "Character Design Process",
     reelVideo:
@@ -517,179 +853,11 @@ const reels = [
     likes: 42189,
     shares: 3124,
     comments: [
-      { user: "backpacker_life", text: "Saving so much! 💰" },
-      { user: "cheap_flights", text: "More tips please" },
-    ],
-    reelTitle: "Travel Hacks Under $50",
-    reelVideo:
-      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
-    userProfilePicture: "https://i.pravatar.cc/150?img=34",
-    isLiked: false,
-    isFollowed: true,
-  },
-  {
-    username: "tattoo_artist_ink",
-    likes: 49876,
-    shares: 2987,
-    comments: [
-      { user: "ink_lover", text: "Beautiful work! 🖊️" },
-      { user: "tattoo_ideas", text: "Taking clients?" },
-      { user: "body_art", text: "Incredible detail" },
-    ],
-    reelTitle: "Phoenix Sleeve Progress",
-    reelVideo:
-      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
-    userProfilePicture: "https://i.pravatar.cc/150?img=35",
-    isLiked: true,
-    isFollowed: false,
-  },
-  {
-    username: "meal_prep_master",
-    likes: 37654,
-    shares: 2543,
-    comments: [
-      { user: "healthy_eating", text: "Organized! 🍱" },
-      { user: "busy_mom", text: "Need this routine" },
-    ],
-    reelTitle: "Sunday Meal Prep for Week",
-    reelVideo:
-      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
-    userProfilePicture: "https://i.pravatar.cc/150?img=36",
-    isLiked: false,
-    isFollowed: false,
-  },
-  {
-    username: "parkour_ninja",
-    likes: 83456,
-    shares: 5678,
-    comments: [
-      { user: "freerunner", text: "Insane! 😱" },
-      { user: "extreme_athlete", text: "How do you train?" },
-      { user: "urban_sports", text: "Next level" },
-    ],
-    reelTitle: "Rooftop Backflip",
-    reelVideo:
-      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
-    userProfilePicture: "https://i.pravatar.cc/150?img=37",
-    isLiked: true,
-    isFollowed: true,
-  },
-  {
-    username: "book_recommendations",
-    likes: 28934,
-    shares: 1876,
-    comments: [
-      { user: "reader_life", text: "Adding to list! 📖" },
-      { user: "book_club", text: "Just finished this" },
-    ],
-    reelTitle: "Top 5 Must-Read Books",
-    reelVideo:
-      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-    userProfilePicture: "https://i.pravatar.cc/150?img=38",
-    isLiked: false,
-    isFollowed: true,
-  },
-  {
-    username: "meditation_guru",
-    likes: 34567,
-    shares: 2234,
-    comments: [
-      { user: "mindful_living", text: "Calming voice 🧘" },
-      { user: "stress_relief", text: "Daily practice now" },
-      { user: "wellness_journey", text: "Thank you" },
-    ],
-    reelTitle: "5-Minute Morning Meditation",
-    reelVideo:
-      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-    userProfilePicture: "https://i.pravatar.cc/150?img=39",
-    isLiked: true,
-    isFollowed: true,
-  },
-  {
-    username: "cocktail_mixology",
-    likes: 41234,
-    shares: 2876,
-    comments: [
-      { user: "bartender_pro", text: "Perfect technique! 🍸" },
-      { user: "drink_recipes", text: "Making tonight" },
-    ],
-    reelTitle: "Classic Old Fashioned",
-    reelVideo:
-      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-    userProfilePicture: "https://i.pravatar.cc/150?img=40",
-    isLiked: false,
-    isFollowed: false,
-  },
-  {
-    username: "financial_freedom",
-    likes: 58923,
-    shares: 4123,
-    comments: [
-      { user: "invest_smart", text: "Great advice! 💸" },
-      { user: "money_tips", text: "Wish I knew this sooner" },
-      { user: "wealth_building", text: "Following" },
-    ],
-    reelTitle: "Passive Income Strategies",
-    reelVideo:
-      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
-    userProfilePicture: "https://i.pravatar.cc/150?img=41",
-    isLiked: true,
-    isFollowed: false,
-  },
-  {
-    username: "wildlife_explorer",
-    likes: 72341,
-    shares: 4987,
-    comments: [
-      { user: "nature_doc", text: "Incredible footage! 🦁" },
-      { user: "safari_life", text: "Where was this?" },
-      { user: "animal_planet", text: "Majestic" },
-    ],
-    reelTitle: "Lion Pride Up Close",
-    reelVideo:
-      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
-    userProfilePicture: "https://i.pravatar.cc/150?img=42",
-    isLiked: true,
-    isFollowed: true,
-  },
-  {
-    username: "pottery_studio",
-    likes: 26789,
-    shares: 1654,
-    comments: [
-      { user: "ceramic_art", text: "So satisfying! 🏺" },
-      { user: "handmade_love", text: "Beautiful piece" },
-    ],
-    reelTitle: "Throwing a Bowl",
-    reelVideo:
-      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
-    userProfilePicture: "https://i.pravatar.cc/150?img=43",
-    isLiked: false,
-    isFollowed: false,
-  },
-  {
-    username: "life_coach_maria",
-    likes: 45678,
-    shares: 3234,
-    comments: [
-      { user: "self_improvement", text: "Transformative! 🌟" },
-      { user: "personal_growth", text: "Changed my perspective" },
-      { user: "better_life", text: "More content please" },
-    ],
-    reelTitle: "Overcome Self-Doubt",
-    reelVideo:
-      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
-    userProfilePicture: "https://i.pravatar.cc/150?img=44",
-    isLiked: true,
-    isFollowed: true,
-  },
-  {
-    username: "home_barista",
-    likes: 33456,
-    shares: 2109,
-    comments: [
-      { user: "espresso_lover", text: "Pro setup! ☕" },
-      { user: "coffee_snob", text: "Machine specs?" },
+      {
+        user: "backpacker_life",
+        text: "Saving so much! 💰",
+        profilePicture: "https://i.pravatar.cc/150?img=13",
+      },
     ],
   },
 ];
@@ -712,12 +880,12 @@ const showReels = () => {
                     </div>
                 </div>
         
-                <video id="videoPlayer-${idx}" loop>
+                <video data-video="${idx}" class="videoPlayer" id="videoPlayer-${idx}" loop>
                     <source src="${reel.reelVideo}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
         
-                <div data-progressBar="${idx}" class="progress-bar" id="progressBar">
+                <div data-progressBar="${idx}" class="progress-bar" id="progressBar-${idx}">
                     <div class="progress" id="progress"></div>
                 </div>
 
@@ -743,11 +911,11 @@ const showReels = () => {
         ? '<i id="liked" class="ri-heart-3-fill"></i>'
         : '<i class="ri-heart-3-line"></i>'
     }</h4>
-                            <h6>${reel.likes}</h6>
+                            <h6 id="likes-count-${idx}">${reel.likes}</h6>
                         </div>
 
                         <div class="comment">
-                            <h4 class="comment-icon icon"><i class="ri-chat-3-line"></i></i></h4>
+                            <h4 data-comment="${idx}" class="comment-icon icon"><i class="ri-chat-3-line"></i></i></h4>
                             <h6>${reel.comments.length}</h6>
                         </div>
 
@@ -758,6 +926,32 @@ const showReels = () => {
 
                         <div class="menu">
                             <h4 class="menu-icon icon"><i class="ri-more-2-fill"></i></i></h4>
+                        </div>
+                    </div>
+
+                    <div id="comment-section-${idx}" class="commentSection">
+                        <header>
+                            <h2>Comments.</h2>
+                            <h4 class="close-icon" id="close-icon-${idx}" data-close="${idx}" ><i class="ri-close-large-fill"></i></h4>
+                        </header>
+
+                        <div class="restSection">
+                        ${reel.comments
+                          .map((comment) => {
+                            return `
+                                <div class="comment">
+                            <div class="user">
+                                <img src="${comment.profilePicture}" alt="">
+                                <h4>${comment.user}</h4>
+                            </div>
+
+                            <div class="text">
+                                <h5>${comment.text}</h5>
+                            </div>
+                        </div>
+                            `;
+                          })
+                          .join("")}
                         </div>
                     </div>
                 </div>
@@ -830,18 +1024,90 @@ const durationFunctionality = () => {
   });
 };
 
+const likeFunctionality = () => {
+  const likeIcon = document.querySelectorAll(".like-icon");
+
+  likeIcon.forEach((e) => {
+    const index = e.dataset.likes;
+    const reel = reels[index];
+    const likesCountH6 = document.querySelector(`#likes-count-${index}`);
+
+    let isLiked = reel.isLiked;
+
+    e.addEventListener("click", () => {
+      if (isLiked) {
+        e.innerHTML = `<i class="ri-heart-3-line"></i>`;
+        isLiked = !isLiked;
+        reel.isLiked = isLiked;
+        reel.likes = reel.likes - 1;
+        likesCountH6.innerHTML = reel.likes;
+        return;
+      }
+
+      if (!isLiked) {
+        e.innerHTML = `<i id="liked" class="ri-heart-3-fill"></i>`;
+        isLiked = !isLiked;
+        reel.isLiked = isLiked;
+        reel.likes = reel.likes + 1;
+        likesCountH6.innerHTML = reel.likes;
+        return;
+      }
+    });
+  });
+};
+
+let isCommentBoxOpen = false;
+
+const openCommentFunctionality = () => {
+  const commentIcon = document.querySelectorAll(".comment-icon");
+
+  commentIcon.forEach((commentIcon) => {
+    commentIcon.addEventListener("click", (e) => {
+      const idx = commentIcon.dataset.comment;
+      let commentSection = document.querySelector(`#comment-section-${idx}`);
+
+      if (!isCommentBoxOpen) {
+        commentSection.style.height = "300px";
+        commentSection.style.padding = "20px 10px";
+        isCommentBoxOpen = !isCommentBoxOpen;
+        return;
+      }
+    });
+  });
+};
+
+const closeCommentFunctionality = () => {
+  const closeIcon = document.querySelectorAll(`.close-icon`);
+
+  closeIcon.forEach((closeIcon) => {
+    closeIcon.addEventListener("click", (e) => {
+      const idx = closeIcon.dataset.close;
+      let commentSection = document.querySelector(`#comment-section-${idx}`);
+
+      commentSection.style.height = 0;
+      commentSection.style.padding = 0;
+
+      isCommentBoxOpen = !isCommentBoxOpen;
+    });
+  });
+};
+
 showReels();
 playPauseFunctionality();
 volumeFunctionality();
 durationFunctionality();
+likeFunctionality();
+openCommentFunctionality();
+closeCommentFunctionality();
 
-let videoUpdate = document.querySelector(`#videoPlayer-${selectedReel}`);
+let videoUpdate = document.querySelectorAll(`.videoPlayer`);
 
-videoUpdate.addEventListener("timeupdate", () => {
-  const percent = (videoUpdate.currentTime / videoUpdate.duration) * 100;
-  const progressBar = document.querySelector(
-    `.progress-bar[data-progressbar="${selectedReel}"]`
-  );
-  const progress = progressBar.querySelector(".progress");
-  progress.style.width = percent + "%";
+videoUpdate.forEach((e) => {
+  e.addEventListener("timeupdate", () => {
+    const percent = (e.currentTime / e.duration) * 100;
+    const progressBar = document.querySelector(`#progressBar-${selectedReel}`);
+    const progress = progressBar.querySelector(".progress");
+
+    progress.style.width = percent + "%";
+  });
 });

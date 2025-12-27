@@ -875,7 +875,7 @@ const showReels = () => {
                     <div class="custom-controls">
                         <h4 data-play="${idx}" class="play-btn" id="playBtn"><i data-play="${idx}" class="ri-play-fill"></i></h4>
                         <div class="volume-control">
-                        <h4 data-volumeBtn="${idx}" class="volume-btn" id="volumeBtn"><i data-index="${idx}" class="ri-volume-up-line"></i></h4>
+                        <h4 data-volumeBtn="${idx}" class="volume-btn" id="volumeBtn-${idx}"><i data-index="${idx}" class="ri-volume-up-line"></i></h4>
                         <input data-volumeSlider="${idx}" type="range" class="volume-slider" id="volumeSlider" min="0" max="100" value="100">
                     </div>
                 </div>
@@ -1111,3 +1111,28 @@ videoUpdate.forEach((e) => {
     progress.style.width = percent + "%";
   });
 });
+
+let volumeBtnUpdate = document.querySelectorAll('.volume-slider');
+
+volumeBtnUpdate.forEach((volumeBtn) => {
+    volumeBtn.addEventListener("input", (e) => {
+        const index = volumeBtn.dataset.volumeslider;
+
+        const volumeBtns = document.querySelector(`#volumeBtn-${index}`);
+        const volume = volumeBtn.value;
+        console.log(volume)
+
+        if(+volume === 0) {
+          return volumeBtns.innerHTML = `<i data-index="${index}" class="ri-volume-mute-line"></i>`;
+        }
+
+        if(+volume < 50) {
+          return volumeBtns.innerHTML = `<i data-index="${index}" class="ri-volume-down-line"></i>`;
+        }
+
+        if(+volume > 51) {
+          return volumeBtns.innerHTML = `<i data-index="${index}" class="ri-volume-up-line"></i>`;
+        }
+
+    });
+})
